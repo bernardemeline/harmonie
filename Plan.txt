@@ -1,4 +1,4 @@
-NOTES SITE WEB
+﻿NOTES SITE WEB
 
 - Modifier l'équipe : besoin des photos de chacune
 - Bug masonry jQuery : trouver une solution (pas primordial si je trouve un autre moyen de les agencer à la main mais pas top ...)
@@ -43,10 +43,11 @@ L'équipe
 	Photos (si on en a)
 	Présentation des membres (ajouter une citation apport du projet par personne)
 	Tuteur (description d'autonom'lab)
+	Concours (résumé + affiche)
 
 
-	
-	Réutiliser le système des bulles de problemes d'usagers + réponse d'HarmÔnie à ce probleme
+IDEE : 	Réutiliser le système des bulles de problemes d'usagers + réponse d'HarmÔnie à ce probleme
+
 Vues 3D récupérées autour du 22.08 (zoning en attendant)
 
   
