@@ -21,7 +21,6 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC" rel="stylesheet">
 	
     <!-- Theme CSS -->
     <link href="css/agency.css" rel="stylesheet">
@@ -54,19 +53,24 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#accueil">Accueil</a>
+                        <a class="page-scroll" href="#services">Accueil</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="" data-toggle="dropdown" data-hover="dropdown">Notre concept
+						<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="">Intentions</a></li>
+							<li><a href="">Localisation</a></li>
+							<li><a href="">Logements</a></li>
+							<li><a href="">Innovations</a></li>
+						</ul>
                     </li>
                     <li>
-						<a href="logements.html">Logements</a>
-					</li>
-					<li>
-                        <a href="environnement.html">Environnement</a>
+                        <a class="page-scroll" href="#about">Album</a>
                     </li>
-					<li>
-						<a href="communaute.html">Communauté</a>
-					</li>
-					<li>	
-                        <a href="team.html">L'équipe</a>
+                    <li>
+                        <a class="page-scroll" href="team.html">L'équipe</a>
                     </li>
                 </ul>
             </div>
@@ -81,21 +85,18 @@
             <div class="intro-text">
                 <div class="intro-lead-in">HarmÔnie</div>
                 <div class="intro-heading">Le logement qui s'adapte à vos envies.</div>
-                <a href="#services" class="page-scroll btn btn-xl">Découvrir</a>
+                <a href="#services" class="page-scroll btn btn-xl">Découvrir le concept</a>
             </div>
         </div>
     </header>
 
-	<!-- Invite Section -->
-	<div class="invite-heading">Venez nous soutenir lors de la semaine de l'Agora, du 14 au 24 Septembre 2017 !</div>	
-		
     <!-- Services Section -->
-    <section id="accueil">
+    <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">En trois mots</h2>
-					<br/>
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Un concept résumé en trois mots</h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -127,95 +128,114 @@
         </div>
     </section>
 
-
-	<!-- Harmonie Section -->
-	<section id="harmonie">
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-center">
-                    <h2 class="section-heading">Salle Harmonie</h2>
-					<h3 class="section-subheading text-muted">Partie à remplir</h3>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <div class="row text-center">
-			<div class="col-md-6">                 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis quam urna, sit amet efficitur est feugiat at. Vivamus id turpis condimentum, elementum nulla vitae, laoreet nisi. Pellentesque felis ante, accumsan in enim sed, cursus ornare sem. Nam at nisi id urna tincidunt dapibus. Praesent eu nisi tempor, dictum elit sed, maximus felis. Curabitur nisi quam, viverra sit amet purus non, pretium tincidunt sapien. Ut aliquam tellus condimentum vestibulum tempor. Quisque erat nisi, sollicitudin vel ultricies quis, efficitur id purus.</p>
+			
+			<div class ="row">	
+						<img src="img/plans/plan1.PNG" class="img-responsive" alt="" usemap="#map-plan1">
+						<map name="map-plan1">
+							<area shape="rect" coords="23,35,212,190" href="#portfolioModal1" class="portfolio-link" data-toggle="modal">  <!-- chambre-->
+							<area shape="rect" coords="250,30,414,213" href="http://www.faceboook.com/">  <!-- piece a vivre -->
+							<area shape="rect" coords="246,330,561,524" href="http://www.maps.google.com/"> <!-- balcon --> 
+						</map>
+			</div>
+			<!--
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="http://via.placeholder.com/500x350">
-                    <p class="text-muted">Legende</p>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
                 </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+				-->
             </div>
         </div>
     </section>
-	
-	
-	<!-- Modularite Section -->
-	<section id="modularite">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <h2 class="section-heading">Modularité</h2>
-					<h3 class="section-subheading text-muted">Partie à remplir</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <img src="http://via.placeholder.com/500x350">
-                    <p class="text-muted">Legende</p>
-                </div>
-				<div class="col-md-offset-2 col-md-6">                 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis quam urna, sit amet efficitur est feugiat at. Vivamus id turpis condimentum, elementum nulla vitae, laoreet nisi. Pellentesque felis ante, accumsan in enim sed, cursus ornare sem. Nam at nisi id urna tincidunt dapibus. Praesent eu nisi tempor, dictum elit sed, maximus felis. Curabitur nisi quam, viverra sit amet purus non, pretium tincidunt sapien. Ut aliquam tellus condimentum vestibulum tempor. Quisque erat nisi, sollicitudin vel ultricies quis, efficitur id purus.</p>
-                </div>
-            </div>
-        </div>
-    </section>	
-	
-	
-	<!-- Parcours Section -->
-	<section id="parcours">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <h2 class="section-heading">Parcours bien-être</h2>
-					<h3 class="section-subheading text-muted">Partie à remplir</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <img src="http://via.placeholder.com/500x350">
-                    <p class="text-muted">Legende</p>
-                </div>
-				<div class="col-md-offset-2 col-md-6">                 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis quam urna, sit amet efficitur est feugiat at. Vivamus id turpis condimentum, elementum nulla vitae, laoreet nisi. Pellentesque felis ante, accumsan in enim sed, cursus ornare sem. Nam at nisi id urna tincidunt dapibus. Praesent eu nisi tempor, dictum elit sed, maximus felis. Curabitur nisi quam, viverra sit amet purus non, pretium tincidunt sapien. Ut aliquam tellus condimentum vestibulum tempor. Quisque erat nisi, sollicitudin vel ultricies quis, efficitur id purus.</p>
-                </div>
-            </div>
-        </div>
-    </section>	
-	
-	
-	<!-- Application Section -->
-	<section id="application">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <h2 class="section-heading">Application</h2>
-					<h3 class="section-subheading text-muted">Partie à remplir</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <img src="http://via.placeholder.com/500x350">
-                    <p class="text-muted">Legende</p>
-                </div>
-				<div class="col-md-offset-2 col-md-6">                 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis quam urna, sit amet efficitur est feugiat at. Vivamus id turpis condimentum, elementum nulla vitae, laoreet nisi. Pellentesque felis ante, accumsan in enim sed, cursus ornare sem. Nam at nisi id urna tincidunt dapibus. Praesent eu nisi tempor, dictum elit sed, maximus felis. Curabitur nisi quam, viverra sit amet purus non, pretium tincidunt sapien. Ut aliquam tellus condimentum vestibulum tempor. Quisque erat nisi, sollicitudin vel ultricies quis, efficitur id purus.</p>
-                </div>
-            </div>
-        </div>
-    </section>	
-
-
 
     <!-- About Section -->
     <section id="about">
@@ -257,7 +277,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/userResearch.jpg" alt="">
                             </div>
@@ -271,7 +291,7 @@
                                 </div>
                             </div>
                         </li>
-						<li class="timeline-inverted">
+						<li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/professionnals.jpg" alt="">
                             </div>
@@ -285,7 +305,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/result.jpg" alt="">
                             </div>
@@ -299,7 +319,7 @@
                                 </div>
                             </div>
                         </li>
-						<li class="timeline-inverted">
+						<li class="timeline-image">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/team.jpg" alt="">
                             </div>
@@ -314,7 +334,7 @@
                             </div>
 						</li>
 						
-                        <li class="timeline-image">
+                        <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>Be Part
                                     <br>Of Our
@@ -611,7 +631,6 @@
 	</script>
 	
 	
-
 	</script>
 	
     <!-- Bootstrap Core JavaScript -->
@@ -630,6 +649,8 @@
 	<!-- Masonry agencement -->
 	<script src="js/masonry.pkgd.min.js"></script>
 	
+	<!-- Dropdown menu -->
+	<script src="js/bootstrap-hover-dropdown.min.js"></script>
 	
 </body>
 

@@ -10,6 +10,16 @@ body {
 .text-muted {
   color: #777777;
 }
+.text-describe {
+  color: #875B9C;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transsfrom: uppercase;
+}
+
+.dropdown-backdrop {
+    z-index:0;
+}
+
 .text-primary {
   color: #A9A031;
 }
@@ -52,7 +62,7 @@ h6 {
 .bg-light-gray {
   background-color: #E5DE95;
 }
-.bg-darkest-gray {
+.bg-white {
   background-color: #FFFFFF;
 }
 .btn-primary {
@@ -155,14 +165,14 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Quicksand", "Montserrat", sans-serif, "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
-/*
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #BA1E59;
 }
-*/
+
 
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -171,12 +181,14 @@ fieldset[disabled] .btn-xl.active {
   text-decoration: underline;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: #A9A031;
   font-size: 12px;
+  margin-bottom: 20px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #A9A031;
+  background-color: #BA1E59;
+  color: white;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -229,7 +241,6 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 
-
 header {
   background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
@@ -250,7 +261,7 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
   font-family: "Quicksand", sans-serif, "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 50px;
   line-height: 22px;
   margin-bottom: 25px;
 }
@@ -258,8 +269,8 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 200;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 22px;
+  line-height: 30px;
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
@@ -282,19 +293,75 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+
+.invite-heading {
+  font-family: 'Patrick Hand', cursive;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 0;
+  background-color: #BA1E59;
+  color: #FFFFFF;
+  text-align:center;
+  font-size: 20px;
+}
+
+.sub-nav {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 24px;
+	text-align: center;
+}
+
+.sub-nav ul {
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px;
+	list-style: none;
+	-ms-box-orient: horizontal;
+	-ms-box-pack: center;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+.sub-nav ul li {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 0;
+	text-align: center;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+
+
 section {
   padding: 100px 0;
 }
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  font-family: 'Quicksand';
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: cursive; "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Patrick Hand', "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
 }
@@ -372,6 +439,8 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
+
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -383,7 +452,7 @@ section h3.section-subheading {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: #D7D7D7;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -556,6 +625,9 @@ section h3.section-subheading {
   margin-top: 0;
   font-family: cursive, sans-serif;
 }
+aside.clients{
+	background-color: #F2F2F2;
+}
 aside.clients img {
   margin: 50px auto;
 }
@@ -617,12 +689,14 @@ section#contact .text-danger {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #484849
 }
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color: white;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -660,9 +734,9 @@ ul.social-buttons li a:active {
   outline: none;
 }
 .portfolio-modal .modal-dialog {
-  margin: 0;
+  margin: 3em auto;
   height: 100%;
-  width: auto;
+  width: 95%;
 }
 .portfolio-modal .modal-content {
   border-radius: 0;
@@ -750,3 +824,87 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #A9A031;
 }
+
+
+
+
+/* MASONRY LAYOUT */
+
+.masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+@media only screen and (min-width: 400px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .masonry {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .wrapper {
+        width: 1260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

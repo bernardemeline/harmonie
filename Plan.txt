@@ -1,0 +1,52 @@
+NOTES SITE WEB
+
+- Modifier l'équipe : besoin des photos de chacune
+- Bug masonry jQuery : trouver une solution (pas primordial si je trouve un autre moyen de les agencer à la main mais pas top ...)
+- Changer la police des sous-titres 
+
+Innovations archi : comment fonctionne la division
+					en dessous des etats, explication 
+Séparation des innovations techniques
+
+Album passe dans l'équipe
+
+
+
+
+PLAN
+Sous-menus déroulants (arranger sur mobile)
+
+Accueil
+	Bandeau prochain évènement
+	En 3 mtots
+	Modularité
+	Salle HarmÔnie
+	Parcours bien-être
+	Prestations comme à domicile
+	Application
+	Timeline
+	
+Logement : cellule du logement (bien-être, ergo, archi)
+	Architecture : logement qui vous suit tout au long de votre vie (spatial, typos)
+		Présentation de la modularité à l'aide d'une frise (3 étapes avec explication détaillée des étapes) et vidéo Youtube
+	Aménagement : logement qui anticipe les besoins --> plan avec les pieces cliquables
+	
+Environnement : situation, architecture exte, parcours bien-être
+Lien archi avec la nature, parcours bien-être, axo generale du projet - bien insister sur l'importance du lieu
+	
+
+Communauté : appli, services
+	Services - Salles communes
+	Application
+
+L'équipe
+	Photos (si on en a)
+	Présentation des membres (ajouter une citation apport du projet par personne)
+	Tuteur (description d'autonom'lab)
+
+
+	
+	Réutiliser le système des bulles de problemes d'usagers + réponse d'HarmÔnie à ce probleme
+Vues 3D récupérées autour du 22.08 (zoning en attendant)
+
+  
