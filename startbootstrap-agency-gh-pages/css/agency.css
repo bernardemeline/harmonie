@@ -10,11 +10,6 @@ body {
 .text-muted {
   color: #777777;
 }
-.text-describe {
-  color: #875B9C;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transsfrom: uppercase;
-}
 
 .dropdown-backdrop {
     z-index:0;
@@ -49,9 +44,7 @@ a.active {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: lighter;
@@ -621,10 +614,19 @@ section h3.section-subheading {
   margin-bottom: 0;
   text-transform: none;
 }
+.team-member h6 {
+  font-family: 'Patrick Hand',cursive, sans-serif;
+  font-size: 15px;
+}
 .team-member p {
   margin-top: 0;
-  font-family: cursive, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
 }
+section#tuteur p{
+	text-align: left;
+}
+
 aside.clients{
 	background-color: #F2F2F2;
 }
@@ -733,6 +735,14 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+
+
+.note {
+  font-family: 'Patrick Hand', cursive;
+  color: #BA1E59;
+  font-size: 20px;
+} 
+
 .portfolio-modal .modal-dialog {
   margin: 3em auto;
   height: 100%;
