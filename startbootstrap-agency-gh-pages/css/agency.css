@@ -632,6 +632,11 @@ section#tuteur p{
 	text-align: left;
 }
 
+section#tuteur p{
+	text-align: left;
+}
+>>>>>>> refs/remotes/origin/master
+
 aside.clients{
 	background-color: #F2F2F2;
 }
