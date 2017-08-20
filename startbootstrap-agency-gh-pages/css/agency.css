@@ -25,11 +25,6 @@ p {
 p.large {
   font-size: 16px;
 }
-p.intro-describe {
-  font-family:'Patrick Hand', cursive;
-  color: #A9A031;
-  font-size: 20px;
-}
 a,
 a:hover,
 a:focus,
@@ -242,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
 header {
   background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -632,11 +627,6 @@ section#tuteur p{
 	text-align: left;
 }
 
-section#tuteur p{
-	text-align: left;
-}
->>>>>>> refs/remotes/origin/master
-
 aside.clients{
 	background-color: #F2F2F2;
 }
@@ -829,11 +819,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #A9A031;
+  background: #F1E481;
 }
 ::selection {
   text-shadow: none;
-  background: #A9A031;
+  background: #F1E481;
 }
 img::selection {
   background: transparent;
@@ -842,10 +832,15 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #A9A031;
+  webkit-tap-highlight-color: #F1E481;
 }
 
-
+strong {
+  font-family:'Patrick Hand', cursive;
+  color: #A9A031;
+  font-size: 18px;
+  font-weight: lighter;
+}
 
 
 /* MASONRY LAYOUT */
