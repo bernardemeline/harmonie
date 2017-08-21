@@ -49,6 +49,12 @@ h4{
   text-transform: uppercase;
   font-weight: lighter;
 }
+h6{
+	font-family: 'Patrick Hand', cursive;
+	font-weight: lighter;
+	font-size: 14px;
+	padding-top: 20px;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -246,7 +252,18 @@ header {
   text-align: center;
   color: black;
 }
-
+section#citation {
+  background-image: url('../img/background-5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+}
 
 header .intro-text {
   padding-top: 100px;
@@ -338,8 +355,36 @@ header .intro-text .intro-heading {
 	-ms-flex: 1;
 	flex: 1;
 }
-
-
+.background-parcours{
+  background-image: url('../img/parcours/installation-plots.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+  margin-bottom: 100px;
+}
+.background-harmonie{
+  background-image: url('../img/background-3.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-top: 200px;
+	
+}
+.espace{
+	margin-top:200px;
+}
 
 section {
   padding: 100px 0;
@@ -625,6 +670,18 @@ section h3.section-subheading {
 }
 section#tuteur p{
 	text-align: left;
+}
+
+p.citation{
+	font-family: 'Quicksand', sans-serif;	
+	font-size: 22px;
+	font-style: italic;
+}
+p.citation strong{
+	font-size: 22px;
+	font-family: 'Quicksand', sans-serif;
+	font-style: italic;
+	font-weight: 700;
 }
 
 aside.clients{
