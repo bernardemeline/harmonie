@@ -41,8 +41,10 @@ a:active,
 a.active {
   color: #BA1E59;
 }
-.mail {
-	color: #BA1E59;
+a.mail {
+	color: #A9A031;
+	font-family: "Quicksand", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-bottom: 100px;
 }
 
 h1,
@@ -259,6 +261,7 @@ header {
 }
 section#citation {
   background-image: url('../img/background-3.jpg');
+  height: 300px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -268,8 +271,8 @@ section#citation {
   -o-background-size: cover;
   text-align: center;
   color: black;
+  padding-top: 100px;
 }
-
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -403,7 +406,9 @@ header .intro-text .intro-heading {
 .espace{
 	margin-top:200px;
 }
-
+.petit-espace{
+	margin-top:70px;
+}
 section {
   padding: 100px 0;
 }
@@ -676,10 +681,14 @@ section h3.section-subheading {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  color: #000000;
+  font-weight: 900;
 }
 .team-member h6 {
   font-family: 'Patrick Hand',cursive, sans-serif;
   font-size: 15px;
+  margin-top: 0;
+  padding-top: 10px;
 }
 .team-member p {
   margin-top: 0;
@@ -691,15 +700,15 @@ section#tuteur p{
 }
 
 p.citation{
-	font-family: 'Quicksand', sans-serif;	
+	font-family: 'Patrick Hand', 'Quicksand', sans-serif;	
 	font-size: 22px;
-	font-style: italic;
+	background-color: rgba(255,255,255,0.6);
 }
 p.citation strong{
 	font-size: 22px;
-	font-family: 'Quicksand', sans-serif;
-	font-style: italic;
+	font-family: 'Patrick Hand', 'Quicksand', sans-serif;
 	font-weight: 700;
+	color: #BA1E59;
 }
 
 aside.clients{
@@ -783,6 +792,7 @@ footer ul.quicklinks {
   text-transform: none;
 }
 ul.social-buttons {
+  margin-top: 15px;
   margin-bottom: 0;
 }
 ul.social-buttons li a {
@@ -852,6 +862,13 @@ ul.social-buttons li a:active {
   font-family: 'Patrick Hand', cursive;
   font-size: 18px;
   color: #A9A031;
+}
+ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+  color: #BA1E59;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
