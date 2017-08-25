@@ -55,6 +55,11 @@ h4{
   text-transform: uppercase;
   font-weight: lighter;
 }
+h4.title{
+  color: #BA1E59;
+  font-family: "Patrick Hand", cursive;
+  margin-bottom: 40px;
+}
 h6{
 	font-family: 'Patrick Hand', cursive;
 	font-weight: lighter;
@@ -249,6 +254,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
   background-image: url('../img/header.jpg');
+  opacity: 10%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -366,6 +372,7 @@ header .intro-text .intro-heading {
 .background-parcours{
   background-image: url('../img/parcours/installation-plots.jpg');
   height: 300px;
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -380,6 +387,7 @@ header .intro-text .intro-heading {
 .background-vue{
   background-image: url('../img/archi/vue3D.png');
   height: 400px;
+   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -589,10 +597,13 @@ section h3.section-subheading {
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: inherit;
+  color: #000000;
+  font-weight: 700;
 }
+
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
