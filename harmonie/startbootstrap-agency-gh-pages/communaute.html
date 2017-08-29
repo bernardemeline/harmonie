@@ -50,7 +50,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">HarmÔnie</a>
+                <a class="navbar-brand page-scroll" href="index.html">HarmÔnie</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,7 +69,7 @@
 						<a href="#wellness">Bien-être</a>
 					</li>
 					<li>	
-                        <a href="team.html">L'équipe</a>
+                        <a href="team.html">Notre équipe</a>
                     </li>
                 </ul>
             </div>
@@ -77,6 +77,9 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+	
+	<!-- Return to Top -->
+	<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
 
 	<div class="espace"></div>
 
@@ -85,12 +88,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<p>
+					<p class="citation text-muted">
 					Tous nos logements ont été conçus autour du bien-être, du <strong>« Bien vieillir »</strong>. Nous ne nous sommes pas arrêtés là. Notre résidence dans son ensemble 
-					a été pensée pour anticiper le viellissement et retrouver le plaisir d'habiter. Nous avons donc créé des pièces communs aux usages et ambiances multiples, comme la 
-					<a class="page-scroll" href="#harmonie" class="scroll-btn">Salle HarmÔnie</a>. Ainsi une <a class="page-scroll" href="#application">application</a> vectrice de lien social a été créée afin de renforcer 
-					l'esprit de partage et de collaboration de la résidence, et un <a class="page-scroll" href="#parcours">parcours bien-être</a> composé d'ateliers stimulants a vu le jour. 
-					<strong>Découvrez-les, vous allez adorer.</strong></p>
+					a été pensée pour anticiper le viellissement et retrouver le plaisir d'habiter. Nous avons donc créé des pièces communs aux usages et ambiances multiples :  
+					<strong>découvrez-les, vous allez adorer.</strong></p>
+					<ul class="list-inline">
+						<li><a href="#harmonie" class="page-scroll">Salle Harmonie</a></li>
+						<li><a href="#affluence" class="page-scroll">Salle Affluence</a></li>
+						<li><a href="#pouponniere" class="page-scroll">Pouponnière</a></li>
+						<li><a href="#application" class="page-scroll">Réseau social</a></li>
+						<li><a href="#parcours" class="page-scroll">Parcours bien-être</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -120,15 +128,17 @@
 				</div>
 			</div>
 			<div class ="row espace">	
-				<div class="col-sm-6 text-center">
+				<div class="col-xs-12">
+					<img class="img-responsive img-centered" src="img/salle-harmonie/plan.PNG" alt="plan de la salle HarmÔnie">
+				</div>
+			</div>
+			<div class="row petit-espace">
+				<div class="col-sm-10 col-sm-offset-1 text-center">
 					<p><strong>Une vue dégagée sur la cîme des arbres.</strong> Nichée au sommet de la résidence à la manière d'une cabane, la salle HarmÔnie permet de 
 					vivre un moment de bien-être sur le thème de la douceur. La salle bénéficie d'un panorama unique sur la nature et sur l'Eau Bourde. La salle dispose
 					également d'une très grande terrasse afin d'être le plus en harmonie possible avec la nature. 
 					Différents éléments connectés permettent de créer des ambiances de détente, des bruits de 
 					nature, ... Et de plonger les amateurs de cinéma dans un décor grandeur nature. </p>
-				</div>
-				<div class="col-sm-6">
-					<img class="img-responsive img-centered" src="img/salle-harmonie/plan.PNG" alt="plan de la salle HarmÔnie">
 				</div>
 			</div>
 		</div>
@@ -150,10 +160,13 @@
                 </div>
             </div>
 			<div class ="row">	
-				<div class="col-sm-7">
+				<div class="col-xs-10 col-xs-offset-1">
 					<img src="img/affluence/plan.PNG" class="img-responsive img-centered" alt="Plan de la salle affluence">
 				</div>
-				<div class="col-sm-5 text-center">
+			</div>
+			
+			<div class="row petit-espace">
+				<div class="col-sm-10 col-sm-offset-1 text-center">
 					<p><strong>Des prestations comme à domicile.</strong> La salle affluence est la seconde salle commune de la résidence. Située au rez-de-chaussée avec un
 					 accès direct aux parkings, cette salle est à disposition des habitants pour qu'ils puissent se retrouver pour jouer aux cartes, discuter ou manger. Des 
 					 espaces supplémentaires ont été pensés afin que les usagers puissent s'approprier l'espace et ranger <br/>les meubles encombrants si besoin. 
@@ -414,11 +427,8 @@
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 	
-	<!-- Masonry agencement -->
-	<script src="js/masonry.pkgd.min.js"></script>
-	
-	<!-- Dropdown menu -->
-	<script src="js/bootstrap-hover-dropdown.min.js"></script>
+	<!-- Scroll to top button -->
+	<script src="js/scroll-to-top.js"></script>
 	
 </body>
 

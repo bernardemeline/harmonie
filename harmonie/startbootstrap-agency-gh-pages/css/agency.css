@@ -267,7 +267,7 @@ header {
 }
 section#citation {
   background-image: url('../img/background-3.jpg');
-  height: 300px;
+  height: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -277,8 +277,24 @@ section#citation {
   -o-background-size: cover;
   text-align: center;
   color: black;
-  padding-top: 100px;
+  padding-top: 200px;
 }
+section#wellness {
+  background-image: url('../img/background-5.jpg');
+  height: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+  padding-top: 200px;
+}
+
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -288,6 +304,13 @@ header .intro-text .intro-lead-in {
   font-size: 50px;
   line-height: 22px;
   margin-bottom: 25px;
+}
+header .intro-text .intro-lead-in strong{
+  font-family: "Quicksand", sans-serif, "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  color: #A9A031;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -321,7 +344,6 @@ header .intro-text .intro-heading {
 .invite-heading {
   font-family: 'Patrick Hand', cursive;
   width: 100%;
-  margin-top: 10px;
   padding: 10px 0;
   background-color: #BA1E59;
   color: #FFFFFF;
@@ -714,12 +736,30 @@ p.citation{
 	font-family: 'Patrick Hand', 'Quicksand', sans-serif;	
 	font-size: 22px;
 	background-color: rgba(255,255,255,0.6);
+	margin-bottom: 20px;
 }
 p.citation strong{
 	font-size: 22px;
 	font-family: 'Patrick Hand', 'Quicksand', sans-serif;
 	font-weight: 700;
 	color: #BA1E59;
+}
+section#citation ul.list-inline li a{
+  padding:10px;
+  margin-bottom: 30px;
+  background-color: rgba(255,255,255,0.6);
+  margin-top: 0;
+  font-family: 'Quicksand', 'Patrick Hand', cursive;
+  font-size: 16px;
+  color: #BA1E59;
+}
+section#wellness ul.list-inline li a{
+  padding:10px;
+  background-color: rgba(255,255,255,0.6);
+  margin-top: 0;
+  font-family: 'Quicksand', 'Patrick Hand', cursive;
+  font-size: 16px;
+  color: #BA1E59;
 }
 
 aside.clients{
@@ -830,6 +870,48 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: none;
+}
+
+#return-to-top {
+    position: fixed;
+	z-index: 100;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
 }
 
 
