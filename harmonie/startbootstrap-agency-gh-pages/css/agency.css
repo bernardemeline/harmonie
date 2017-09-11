@@ -84,6 +84,9 @@ h6{
   text-transform: uppercase;
   font-weight: 700;
 }
+.btn-primary i {
+  padding-right: 8px;
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -744,23 +747,7 @@ p.citation strong{
 	font-weight: 700;
 	color: #BA1E59;
 }
-section#citation ul.list-inline li a{
-  padding:10px;
-  margin-bottom: 30px;
-  background-color: rgba(255,255,255,0.6);
-  margin-top: 0;
-  font-family: 'Quicksand', 'Patrick Hand', cursive;
-  font-size: 16px;
-  color: #BA1E59;
-}
-section#wellness ul.list-inline li a{
-  padding:10px;
-  background-color: rgba(255,255,255,0.6);
-  margin-top: 0;
-  font-family: 'Quicksand', 'Patrick Hand', cursive;
-  font-size: 16px;
-  color: #BA1E59;
-}
+
 
 aside.clients{
 	background-color: #F2F2F2;
