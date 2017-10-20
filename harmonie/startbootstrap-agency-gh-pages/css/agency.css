@@ -297,7 +297,7 @@ section#wellness {
 
 header .intro-text {
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Quicksand", sans-serif, "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -315,10 +315,11 @@ header .intro-text .intro-lead-in strong{
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 25px;
+  margin-top: 40px;
 }
 @media (min-width: 768px) {
   header .intro-text {
