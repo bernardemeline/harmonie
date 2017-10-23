@@ -41,13 +41,24 @@ a:active,
 a.active {
   color: #BA1E59;
 }
+a.mail {
+	color: #A9A031;
+	font-family: "Quicksand", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-bottom: 100px;
+}
+
 h1,
 h2,
 h3,
 h4{
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: lighter;
+}
+h4.title{
+  color: #BA1E59;
+  font-family: "Patrick Hand", cursive;
+  margin-bottom: 40px;
 }
 h6{
 	font-family: 'Patrick Hand', cursive;
@@ -65,6 +76,7 @@ h6{
   background-color: #FFFFFF;
 }
 .btn-primary {
+  margin-top: 30px;
   color: white;
   background-color: #BA1E59;
   border-color: #BA1E59;
@@ -72,14 +84,17 @@ h6{
   text-transform: uppercase;
   font-weight: 700;
 }
+.btn-primary i {
+  padding-right: 8px;
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #BA1E59;
-  border-color: #BA1E59;
+  background-color: #333333;
+  border-color: #333333;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -242,6 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
   background-image: url('../img/header.jpg');
+  opacity: 10%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -253,7 +269,8 @@ header {
   color: black;
 }
 section#citation {
-  background-image: url('../img/background-5.jpg');
+  background-image: url('../img/background-3.jpg');
+  height: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -263,7 +280,23 @@ section#citation {
   -o-background-size: cover;
   text-align: center;
   color: black;
+  padding-top: 200px;
 }
+section#wellness {
+  background-image: url('../img/background-5.jpg');
+  height: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+  padding-top: 200px;
+}
+
 
 header .intro-text {
   padding-top: 100px;
@@ -274,6 +307,13 @@ header .intro-text .intro-lead-in {
   font-size: 50px;
   line-height: 22px;
   margin-bottom: 25px;
+}
+header .intro-text .intro-lead-in strong{
+  font-family: "Quicksand", sans-serif, "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  color: #A9A031;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -307,7 +347,6 @@ header .intro-text .intro-heading {
 .invite-heading {
   font-family: 'Patrick Hand', cursive;
   width: 100%;
-  margin-top: 10px;
   padding: 10px 0;
   background-color: #BA1E59;
   color: #FFFFFF;
@@ -358,6 +397,7 @@ header .intro-text .intro-heading {
 .background-parcours{
   background-image: url('../img/parcours/installation-plots.jpg');
   height: 300px;
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -369,6 +409,20 @@ header .intro-text .intro-heading {
   color: black;
   margin-bottom: 100px;
 }
+.background-vue{
+  background-image: url('../img/archi/vue3D.png');
+  height: 400px;
+   width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+  }
 .background-harmonie{
   background-image: url('../img/background-3.jpg');
   height: 300px;
@@ -385,7 +439,9 @@ header .intro-text .intro-heading {
 .espace{
 	margin-top:200px;
 }
-
+.petit-espace{
+	margin-top:70px;
+}
 section {
   padding: 100px 0;
 }
@@ -566,10 +622,13 @@ section h3.section-subheading {
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: inherit;
+  color: #000000;
+  font-weight: 700;
 }
+
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
@@ -658,10 +717,14 @@ section h3.section-subheading {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  color: #000000;
+  font-weight: 900;
 }
 .team-member h6 {
   font-family: 'Patrick Hand',cursive, sans-serif;
   font-size: 15px;
+  margin-top: 0;
+  padding-top: 10px;
 }
 .team-member p {
   margin-top: 0;
@@ -673,16 +736,18 @@ section#tuteur p{
 }
 
 p.citation{
-	font-family: 'Quicksand', sans-serif;	
+	font-family: 'Patrick Hand', 'Quicksand', sans-serif;	
 	font-size: 22px;
-	font-style: italic;
+	background-color: rgba(255,255,255,0.6);
+	margin-bottom: 20px;
 }
 p.citation strong{
 	font-size: 22px;
-	font-family: 'Quicksand', sans-serif;
-	font-style: italic;
+	font-family: 'Patrick Hand', 'Quicksand', sans-serif;
 	font-weight: 700;
+	color: #BA1E59;
 }
+
 
 aside.clients{
 	background-color: #F2F2F2;
@@ -765,6 +830,7 @@ footer ul.quicklinks {
   text-transform: none;
 }
 ul.social-buttons {
+  margin-top: 15px;
   margin-bottom: 0;
 }
 ul.social-buttons li a {
@@ -793,6 +859,48 @@ ul.social-buttons li a:active {
   outline: none;
 }
 
+#return-to-top {
+    position: fixed;
+	z-index: 100;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
 
 .note {
   font-family: 'Patrick Hand', cursive;
@@ -818,19 +926,29 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
+  family-font: cursive, sans-serif;
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Patrick Hand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+  color: #A9A031;
+}
+ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+  color: #BA1E59;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;

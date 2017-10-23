@@ -1,0 +1,22 @@
+ACCUEIL : 
+- Réduire qualité (taille) de l'image de fond
++ Remettre le O de HarmÔnie en jaune sur l'accueil      
++ Remettre l'image de l'application
++ Virer le bouton "Découvrir"
++ Virer le titre "En trois mots"
+- "Concours Silver Dom'Innov : Venez nous soutenir lors de la semaine de l'Agora"
+
+
+L'EQUIPE : 
+- Modification des textes de chacun
+- L'équipe --> à propos de nous
+
+PARCOURS : 
+- Remettre des explications pour chaque atelier du parcours en pop-up
+
+
+
+De partout : 
+Ajouter en début de page des liens pour acceder à chaque partie
++ bouton flottant pour scroll up
+
